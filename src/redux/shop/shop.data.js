@@ -1,5 +1,5 @@
-const SHOP_DATA = {
- hats: {
+const SHOP_DATA = [
+ {
 id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,7 +60,7 @@ id: 1,
       }
     ]
   },
-  sneakers: {
+   {
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -115,7 +115,7 @@ id: 1,
       }
     ]
   },
-  jackets: {
+   {
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -152,7 +152,7 @@ id: 1,
       }
     ]
   },
-  womens:  {
+   {
     id: 4,
     title: 'Womens',
     routeName: 'womens',
@@ -201,7 +201,7 @@ id: 1,
       }
     ]
   },
-  mens:  {
+   {
     id: 5,
     title: 'Mens',
     routeName: 'mens',
@@ -243,7 +243,7 @@ id: 1,
         price: 25
       }
     ]
-}    
-};
+   }
+  ];
 
 export default SHOP_DATA;
