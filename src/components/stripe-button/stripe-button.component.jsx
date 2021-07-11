@@ -20,7 +20,7 @@ return (
     name='CRWN Clothing Ltd.'
     billingAddress
     shippingAddress
-    image='https://svgshare.com/i/CUz.svg'
+    image=''
     description={`Your total is $${price}`}
     amount={priceForStripe}
     panelLabel='Pay Now'
