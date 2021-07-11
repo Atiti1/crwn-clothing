@@ -22,7 +22,7 @@ const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem })=> {
         <div className='remove-button' onClick={() => clearItem(cartItem)}>&#10005;</div>
     </div>
  );
-};
+}
 
 const mapDispatchToProps = dispatch => ({
     clearItem: item => dispatch(clearItemFromCart(item)),
@@ -34,3 +34,8 @@ export default connect(
     null, 
     mapDispatchToProps
 ) (CheckoutItem);
+
+
+// import {} from '../../firebase/firebase.utils'
+// import {} from '../checkout-item/'
+// import './CartDropdown.styles'
