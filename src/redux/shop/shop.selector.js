@@ -8,8 +8,8 @@ export const selectCollections = createSelector(
 );
 export const selectCollectionsForPreview = createSelector(
     [selectCollections],
-    (collections) => 
-    collections ? Object.keys(collections).map((key) => collections[key]) : null
+    collections => 
+collections ? Object.keys(collections).map((key) => collections[key]) : []
 );
 
 export const selectCollection = (collectionUrlParam) =>
